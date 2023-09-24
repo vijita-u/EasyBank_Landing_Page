@@ -77,8 +77,8 @@ To get started with this project, follow these steps:
 This project was inspired by a video tutorial which served as a valuable resource in guiding me through the systematic process of creating a website and writing code that adheres to best practices. However, it's important to note that I didn't merely copy the tutorial; instead, I independently crafted all the styles using my own creativity and problem-solving skills. This hands-on approach not only enhanced my abilities but also enabled me to adapt to diverse design challenges and explore various methods for achieving the same design objectives.
 
 # Credits
-- [Coder Coder](https://coder-coder.com/).
-- [FreeCodeCamp](https://www.freecodecamp.org/).
+- [Coder Coder](https://coder-coder.com/)
+- [FreeCodeCamp](https://www.freecodecamp.org/)
 - [Frontend Mentor](https://www.frontendmentor.io)
 
 ## Acknowledgments
