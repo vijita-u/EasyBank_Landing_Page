@@ -79,6 +79,7 @@ This project was inspired by a video tutorial which served as a valuable resourc
 # Credits
 - [Coder Coder](https://coder-coder.com/).
 - [FreeCodeCamp](https://www.freecodecamp.org/).
+- [Frontend Mentor](https://www.frontendmentor.io)
 
 ## Acknowledgments
 
