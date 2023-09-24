@@ -1,0 +1,75 @@
+@use "../util" as u;
+
+.features {
+	background-color: var(--light-grayish-blue);
+
+	.container {
+		text-align: center;
+
+		@include u.breakpoint-up(medium) {
+			text-align: left;
+		}
+	}
+
+	&__intro {
+		max-width: 60%;
+		margin-inline: auto;
+		margin-bottom: 3.75rem;
+
+		@include u.breakpoint-up(medium) {
+			margin-inline: unset;
+			margin-left: 1.5rem;
+		}
+	}
+
+	&__flex {
+		@include u.breakpoint-up(medium) {
+			margin-top: 1.25rem;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		@include u.breakpoint-up(large) {
+		}
+	}
+
+	&__item {
+		padding: 0.9375rem;
+
+		@include u.breakpoint-up(medium) {
+			// padding: unset;
+			flex: 0 0 48%;
+		}
+
+		@include u.breakpoint-up(large) {
+			flex: 1;
+		}
+	}
+
+	&__icon {
+		margin-bottom: 1.875rem;
+
+		@include u.breakpoint-up(large) {
+			margin-bottom: 2.75rem;
+		}
+	}
+
+	&__title {
+		font-size: 1.25rem;
+		line-height: 1.15;
+		font-weight: 300;
+		color: var(--dark-blue);
+		margin-bottom: 1rem;
+
+		@include u.breakpoint-up(large) {
+			font-size: 1.5rem;
+			margin-bottom: 2.125rem;
+		}
+	}
+
+	&__desc {
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+}

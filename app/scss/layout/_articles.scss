@@ -1,0 +1,63 @@
+@use "../util" as u;
+
+.articles {
+	background-color: var(--very-light-gray);
+
+	&__grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 1.875rem;
+
+		@include u.breakpoint-up(medium) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		@include u.breakpoint-up(large) {
+			grid-template-columns: repeat(4, 1fr);
+		}
+	}
+
+	&__item {
+		background-color: var(--white);
+		overflow: hidden;
+		border-radius: 5px;
+	}
+
+	&__image {
+		height: 200px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	&__info {
+		padding: 1.875rem 1.875rem 2.5rem 1.875rem;
+
+		@include u.breakpoint-up(medium) {
+			padding: 1.875rem 1.5625rem;
+		}
+	}
+
+	&__author {
+		font-size: 0.625rem;
+        margin-bottom: .75rem;
+	}
+
+	&__title {
+		font-size: 1.0625rem;
+        line-height: 1.2;
+        margin-bottom: .75rem;
+
+		a {
+			color: var(--dark-blue);
+
+			&:hover {
+				color: var(--lime-green);
+			}
+		}
+	}
+
+	&__desc {
+        font-size: .8125rem;
+	}
+}

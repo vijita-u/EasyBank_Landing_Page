@@ -1,0 +1,15 @@
+@use "../util/" as u;
+
+.hide-for-mobile {
+	// hide for tablet and mobile
+	@include u.breakpoint-down(medium) {
+		display: none;
+	}
+}
+
+.hide-for-desktop {
+	// hide for desktop viewport widths
+	@include u.breakpoint-up(large) {
+		display: none;
+	}
+}
