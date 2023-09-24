@@ -9,7 +9,7 @@ Intermediate Level Challenge by [Frontend Mentor](https://www.frontendmentor.io)
 
 This project was initiated in response to an intermediate challenge on Frontend Mentor. Its primary objectives included gaining proficiency in translating design concepts into functional code and mastering the art of creating responsive websites. Additionally, it served as a valuable learning experience for creating a basic landing page, marking my first foray into this aspect of web development.
 
-## The challenge
+## The Challenge
 
 The challenge was to build out this landing page and get it looking as close to the design as possible.
 
