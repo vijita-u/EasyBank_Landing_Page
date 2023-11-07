@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zip_code-api-integration/static/css/main.f923f2ae.css",
+    "main.js": "/zip_code-api-integration/static/js/main.c329d851.js",
+    "index.html": "/zip_code-api-integration/index.html",
+    "main.f923f2ae.css.map": "/zip_code-api-integration/static/css/main.f923f2ae.css.map",
+    "main.c329d851.js.map": "/zip_code-api-integration/static/js/main.c329d851.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f923f2ae.css",
+    "static/js/main.c329d851.js"
+  ]
+}
